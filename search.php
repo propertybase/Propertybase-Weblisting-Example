@@ -72,8 +72,8 @@ function __displaySearchForm() {
 					<tr>
 						<td class="label">Property for</td>
 						<td class="col_1"></td>
-						<td class="col_2"><input class="checkbox" type="checkbox" name="pb__IsForLease__c" value="Lease" /><label>Lease</label>
-						<input class="checkbox" type="checkbox" checked="checked" name="pb__IsForSale__c" value="Sale" /><label>Sale</label></td>
+						<td class="col_2"><input class="checkbox" type="checkbox" name="pb__IsForLease__c" value="true" /><label>Lease</label>
+						<input class="checkbox" type="checkbox" checked="checked" name="pb__IsForSale__c" value="true" /><label>Sale</label></td>
 					</tr>
 					<tr>
 						<td class="label"></td>
